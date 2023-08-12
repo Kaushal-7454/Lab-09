@@ -25,8 +25,6 @@ frame_info.grid(row=1, column=0, padx=(20,10), pady=(10,20), sticky=N)
 frame_stats = ttk.LabelFrame(root, text = "stats")
 frame_stats.grid(row=1, column=1, padx=(10,20), pady=(10,10), sticky=N)
 
-
-
 # Define button click event handler function
 def handle_button_get_info():
     poke_name = enter_name.get().strip()

@@ -27,6 +27,7 @@ def get_pokemon_info(pokemon):
     # - Converting to all lowercase letters
     pokemon = str(pokemon).strip().lower()
 
+
     # Check if Pokemon name is an empty string
     if pokemon == '':
         print('Error: No Pokemon name specified.')
